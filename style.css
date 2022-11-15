@@ -44,13 +44,16 @@
   }
   .fa-circle-plus {
     color: #00a5ec;
-    /* background-color: white; */
+    text-decoration:none;
+   position: absolute;
+   margin-left: 900px;
+    
   }
   .navbarbottom {
       display: flex;
       justify-content: end;
       margin: 21px;
-      margin-right: 150px;
+      margin-right: 370px;
       margin-top: 50px;
       /* background-color: white; */
   
@@ -235,4 +238,9 @@
   }
   .blur:hover{
     cursor: pointer;
+  }
+  .blur2{
+    filter: blur(2px);
+    opacity: 0.2;
+    
   }
